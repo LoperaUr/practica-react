@@ -1,0 +1,17 @@
+.container-galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #eee;
+}
+
+.item-galeria {
+  margin: 10px;
+}
+
+.item-galeria img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
